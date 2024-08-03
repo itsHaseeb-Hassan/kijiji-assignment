@@ -23,6 +23,7 @@ export default {
       hoverfb:"#3C5B9A",
       hovertwitter:"#28A9DF",
       hoveryoutube:"#E91C00",
+      white:"#ffffff"
     
     },
     backgroundImage: {

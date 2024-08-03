@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "description": "How to make and save money from home",
+            "src":"images/Kijijicentral.jpg"
+        },
+        {
+            "id": 2,
+            "description": "How to find the perfect appartment for rent on kijiji",
+            "src":"images/kijijicentral2.jpg"
+        },
+        {
+            "id": 3,
+            "description": "8 essential tools to have on hand for jobs arround your",
+            "src":"images/kijijicentral3.jpg"
+        }
+    ]
+}
