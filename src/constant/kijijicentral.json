@@ -3,17 +3,20 @@
         {
             "id": 1,
             "description": "How to make and save money from home",
-            "src":"images/Kijijicentral.jpg"
+            "src":"images/Kijijicentral.jpg",
+            "logo":"images/dont.svg"
         },
         {
             "id": 2,
             "description": "How to find the perfect appartment for rent on kijiji",
-            "src":"images/kijijicentral2.jpg"
+            "src":"images/kijijicentral2.jpg",
+            "logo":"images/dont.svg"
         },
         {
             "id": 3,
             "description": "8 essential tools to have on hand for jobs arround your",
-            "src":"images/kijijicentral3.jpg"
+            "src":"images/kijijicentral3.jpg",
+            "logo":"images/dont.svg"
         }
     ]
 }

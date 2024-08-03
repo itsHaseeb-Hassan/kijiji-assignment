@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "description": "Apartments & Condos for Rent",
+            "src":"images/canadaproperty.webp"
+        },
+        {
+            "id": 2,
+            "description": "House For Rent",
+            "src":"images/houserent.webp"
+            
+        },
+        {
+            "id": 3,
+            "description": "Houses For Sale",
+            "src":"images/housesale.webp"
+            
+        }
+    ]
+}
