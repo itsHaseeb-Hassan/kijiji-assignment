@@ -1,0 +1,15 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9F9;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-size: cover; /* Ensure the background image covers the entire button */
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make them circular if desired */
+}
+

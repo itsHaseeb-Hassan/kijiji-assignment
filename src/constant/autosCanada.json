@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "description": "",
+            "src":"images/kijijiautos.webp"
+        },
+        {
+            "id": 2,
+            "description": "Cars & Trucks",
+            "src":"images/cars.webp"
+            
+        },
+        {
+            "id": 3,
+            "description": "Classic Cars",
+            "src":"images/classiccars.webp"
+            
+        },
+        {
+            "id": 4,
+            "description": "RV's, Campers, & Trailers",
+            "src":"images/rvs.webp"
+            
+        },
+        {
+            "id": 5,
+            "description": "Boats & Watercrafts",
+            "src":"images/boats.webp"
+        },
+        {
+            "id": 6,
+            "description": "Motrcycles",
+            "src":"images/motorcycles.webp"
+        },
+        {
+            "id": 7,
+            "description":"Vehicle Parts, Tires, & Accessories",
+            "src":"images/auto.webp"
+        },
+        {
+            "id": 8,
+            "description": "Heavy Equipment",
+            "src":"images/heavyequipment.webp"
+        }
+    ]
+}
