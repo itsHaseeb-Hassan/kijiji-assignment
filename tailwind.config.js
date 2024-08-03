@@ -18,8 +18,16 @@ export default {
       headingHero:"#37A864",
       bodyBg:"#F8F9F9",
       footerHeading:"#c5c6cb",
-      footerBg: '#3E4153'
-    }
+      footerIcon:"#6f727f",
+      footerBg: '#3E4153',
+      hoverfb:"#3C5B9A",
+      hovertwitter:"#28A9DF",
+      hoveryoutube:"#E91C00",
+    
+    },
+    backgroundImage: {
+      'hoverinsta': 'linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7)',
+    },
   },
   plugins: [],
 }

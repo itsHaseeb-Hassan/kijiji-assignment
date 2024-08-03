@@ -39,25 +39,32 @@ const Footer = () => {
         </ul>
       </div>
 
-    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center  border-gray-700 pt-8 mt-8">
-      <div className="flex space-x-6 mb-6 md:mb-0">
-        <a href="#">
-          <img src="app-store-badge.png" alt="Download on the App Store" className="h-10" />
-        </a>
-        <a href="#">
-          <img src="google-play-badge.png" alt="Get it on Google Play" className="h-10" />
-        </a>
-      </div>
-      <div className="flex space-x-4 text-gray-500">
-        <a href="#" className="hover:text-gray-300"><img src=''  /></a>
-        <a href="#" className="hover:text-gray-300"><img src=''  /></a>
-        <a href="#" className="hover:text-gray-300"><img src=''  /></a>
-        <a href="#" className="hover:text-gray-300"><img src=''  /></a>
-        <a href="#" className="hover:text-gray-300"><img src=''  /></a>
-      </div>
     </div>
-    </div>
-    <div className="container mx-auto text-center text-gray-600 text-xs mt-6">
+   <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 mx-auto ">
+    <div className='flex justify-around w-[100%]  h-[150px]'>
+        <img src='/images/apple.svg'   />
+        <img src='/images/playstore.svg'  />
+        </div>
+       <div className='flex  w-[100%]  h-[150px] items-center justify-center'>
+       <div className='bg-footerIcon hover:bg-hoverfb text-white w-25 h-25 p-3 rounded-full flex items-center justify-center '>
+  <img src="/images/facebook.svg" className='w-5 h-5' alt="Facebook Logo" />
+  
+</div>
+<div className='bg-footerIcon w-25 h-25 p-3 rounded-full flex items-center justify-center ms-4 hover:bg-hoverinsta' >
+  <img src="/images/instagram.svg" className='w-5 h-5 text-white' alt="Instagram Logo" />
+</div>
+<div className='bg-footerIcon w-25 h-25 p-3 rounded-full flex items-center justify-center ms-4 hover:bg-hovertwitter'>
+  <img src="/images/twitter.svg" className='w-5 h-5' alt="Twitter Logo" />
+</div>
+<div className='bg-footerIcon w-25 h-25 p-3 rounded-full flex items-center justify-center ms-4 hover:bg-headingHero'>
+  <img src="/images/dont.svg" className='w-5 h-5' alt="dont know Logo" />
+</div>
+<div className='bg-footerIcon w-25 h-25 p-3 rounded-full flex items-center justify-center ms-4 hover:bg-hoveryoutube'>
+  <img src="/images/youtube.svg" className='w-5 h-5' alt="youtube Logo" />
+</div> 
+       </div>
+   </div>
+    <div className="container mx-auto text-center text-footerHeading text-md mt-6">
       <p>All rights reserved. Google, Google Play, YouTube and other marks are trademarks of Google Inc.</p>
     </div>
   </footer>
