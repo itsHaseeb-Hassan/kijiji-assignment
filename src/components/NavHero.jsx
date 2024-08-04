@@ -84,7 +84,7 @@ const NavHero = () => {
               <h2 className="text-[22px] font-bold font-larsseit text-secondary">Over 5,000 vehicles listed daily.</h2>
               <p className='text-[22px] font-bold font-larsseit text-white'>Welcome to the home of your next great ride.</p>
             </div>
-            <div className="w-full md:w-[70%] mt-10 md:mt-0 ">
+            <div className="w-full md:w-[70%]  md:mt-0 ">
               <img
                 src="images/hero.jpg"
                 alt="Placeholder"
