@@ -7,7 +7,7 @@ const NavHero = () => {
   return (
     <div>
     <div className='bg-postbtn h-[600px] md:h-[500px] relative'>
-      {/* Navbar */}
+      {/* Navbar in main page */}
       <nav className="bg-white shadow-md mt-3 w-full absolute">
         <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
