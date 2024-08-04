@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "description": "",
+            "src":"images/kijijiautos.webp"
+        },
+        {
+            "id": 2,
+            "description": "Families",
+            "src":"images/slidercar.jpeg"
+            
+        },
+        {
+            "id": 3,
+            "description": "Beginners",
+            "src":"images/slidercar.jpeg"
+            
+        },
+        {
+            "id": 4,
+            "description": "Hard Work",
+            "src":"images/slidercar.jpeg"
+            
+        },
+        {
+            "id": 5,
+            "description": "Commuting",
+            "src":"images/slidercar.jpeg"
+            
+        },
+        {
+            "id": 6,
+            "description": "The Environment",
+            "src":"images/slidercar.jpeg"
+            
+        },
+        {
+            "id": 7,
+            "description": "City Cars",
+            "src":"images/slidercar.jpeg"
+            
+        }
+
+    ]
+}

@@ -1,27 +1,16 @@
 import './App.css'
-import AutosCanada from './components/AutosCanada'
-import BuySale from './components/BuySale'
-import Footer from './components/Footer'
-import KijijiCentral from './components/KijijiCentral'
-import MobileAppPromotion from './components/MobileAppPromotion'
-import NavHero from './components/NavHero'
-import RealState from './components/RealState'
-import SignIn from './components/SignIn'
-import Slider from './components/Slider'
+import { Routes,Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import CarsPage from './pages/CarsPage'
 
 function App() {
  
   return (
     <>
-    <NavHero />
-    <Slider />
-    <AutosCanada />
-    <BuySale />
-    <SignIn />
-    <RealState />
-    <KijijiCentral />
-    <MobileAppPromotion />
-    <Footer />
+  <Routes>
+    <Route path='/' element={<HomePage />} />
+    <Route path="/cars" element={<CarsPage />} />
+  </Routes>
     </>
   )
 }

@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "description": "How to choose the right car for you",
+            "src":"images/dealer.jpg",
+            "logo":"images/dont.svg"
+        },
+        {
+            "id": 2,
+            "description": "How to negotiate the priceof a car at a dealership",
+            "src":"images/dealer2.jpg",
+            "logo":"images/dont.svg"
+            
+        },
+        {
+            "id": 3,
+            "description": "How to buy a car from a dealer confidently",
+            "src":"images/dealer3.jpg",
+            "logo":"images/dont.svg"
+            
+        }
+    ]
+}

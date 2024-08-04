@@ -36,37 +36,34 @@ const Slider = () => {
   }, [swiperInstance]);
 
   return (
-    <div className="w-[68%] ms-[5%]  pl-1 mb-20">
+    <div className=" container w-[68%] mx-auto  md:ms-16 md:mx-0  mb-20 ">
       <div className="flex justify-between items-center mb-4">
-        <h1 className="font-larsseit text-[18px]">Homepage Gallery</h1>
-        <p>Your Ad here <span>See All</span> </p>
+        <h1 className="font-larsseit text-lg">Homepage Gallery</h1>
+        <p>Your Ad here <span>See All</span></p>
       </div>
       <Swiper
-        spaceBetween={10}
-        slidesPerView={4}
+        spaceBetween={2}
+        slidesPerView={1}
         navigation
         modules={[Navigation]}
         breakpoints={{
           640: {
-            slidesPerView: 1,
-            spaceBetween: 10,
+            slidesPerView: 7,
           },
           768: {
             slidesPerView: 7,
-            spaceBetween: 10,
           },
           1024: {
             slidesPerView: 7,
-            spaceBetween: 5,
           },
         }}
         onSwiper={setSwiperInstance}
       >
         {data.data.map((item, index) => (
-          <SwiperSlide key={index}>
-            <div className="bg-white shadow-md shadow-white">
+          <SwiperSlide key={index} className='mx-auto md:mx-0'>
+            <div className="bg-white shadow-md">
               <div
-                className="w-full h-[120px] bg-cover bg-center "
+                className="w-full h-[120px] bg-cover bg-center"
                 style={{ backgroundImage: `url(${item.src})` }}
               />
               <div className="mt-4 p-3">

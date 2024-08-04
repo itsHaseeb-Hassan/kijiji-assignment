@@ -1,36 +1,36 @@
-import React from 'react'
-import data from '../constant/kijijicentral.json'
+import React from "react";
+import data from "../constant/kijijicentral.json";
 
 const KijijiCentral = () => {
   return (
     <>
-      <h1 className="font-larsseit mb-2 ms-[5%] text-[18px]">Kijiji Central</h1>
-      <div className="container md:w-[65%] w-full  ms-0  md:ms-[5%] mb-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-14 items-center h-full">
-          {data.data.map((item, index) => (
-            <div key={index} className="relative flex flex-col">
-              <div className="md:relative w-[100%] md:w-[290px] h-[200px] bg-no-repeat bg-cover bg-center rounded-lg">
+      <div className="w-full mx-auto my-10">
+        <div className="w-full md:w-[70%] mx-2 md:mx-14">
+          <h1 className="font-larsseit mb-2 text-[18px]">Kijiji Central</h1>
+          <div className="flex gap-3 overflow-x-auto md:overflow-hidden">
+            {data.data.map((item, index) => (
+              <div key={index} className="relative flex-shrink-0 w-[290px] h-[200px] ">
                 <div
                   style={{ backgroundImage: `url(${item.src})` }}
-                  className="absolute inset-0 bg-cover bg-center rounded-lg"
+                  className="absolute inset-0 bg-cover bg-center rounded-md bg-no-repeat"
                 />
-                <div className=" inset-0 bg-postbtn opacity-80 rounded-lg flex justify-between" >
-                <p className="absolute bottom-0 font-larsseit text-[16px] ms-44 md:ms-28 transform -translate-x-1/2 text-white w-[70%] py-2 z-10">
-                  {item.description}
-                </p>
-                <img
-                  src={item.logo}
-                  className='absolute bottom-0 right-0 w-5 h-5 transform -translate-x-1/2 -translate-y-1/2 z-0'
-                  alt="Logo"
-                />
+                <div className="absolute bottom-0 left-5 flex items-center w-full mb-2">
+                  <p className="max-w-[200px] text-white font-larsseit text-[15px] font-bold">
+                    {item.description}
+                  </p>
+                  <img
+                    src={item.logo}
+                    className="absolute bottom-0 right-7 w-[40px] h-[40px]"
+                    alt="Logo"
+                  />
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default KijijiCentral
+export default KijijiCentral;

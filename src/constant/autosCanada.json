@@ -3,45 +3,53 @@
         {
             "id": 1,
             "description": "",
-            "src":"images/kijijiautos.webp"
+            "src":"images/kijijiautos.webp",
+            "url":"/autos-canada"
         },
         {
             "id": 2,
             "description": "Cars & Trucks",
-            "src":"images/cars.webp"
+            "src":"images/cars.webp",
+            "url":"cars"
             
         },
         {
             "id": 3,
             "description": "Classic Cars",
-            "src":"images/classiccars.webp"
+            "src":"images/classiccars.webp",
+            "url":"/autos-canada"
             
         },
         {
             "id": 4,
             "description": "RV's, Campers, & Trailers",
-            "src":"images/rvs.webp"
+            "src":"images/rvs.webp",
+            "url":"/autos-canada"
             
         },
         {
             "id": 5,
             "description": "Boats & Watercrafts",
-            "src":"images/boats.webp"
+            "src":"images/boats.webp",
+            "url":"/autos-canada"
         },
         {
             "id": 6,
             "description": "Motrcycles",
-            "src":"images/motorcycles.webp"
+            "src":"images/motorcycles.webp",
+            "url":"/autos-canada"
         },
         {
             "id": 7,
             "description":"Vehicle Parts, Tires, & Accessories",
-            "src":"images/auto.webp"
+            "src":"images/auto.webp",
+            "url":"/autos-canada"
         },
         {
             "id": 8,
             "description": "Heavy Equipment",
-            "src":"images/heavyequipment.webp"
+            "src":"images/heavyequipment.webp",
+            "url":"/autos-canada"
         }
     ]
 }

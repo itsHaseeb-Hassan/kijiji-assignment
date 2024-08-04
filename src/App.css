@@ -5,11 +5,35 @@ body{
     background-color: #F8F9F9;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  background-size: cover; /* Ensure the background image covers the entire button */
-  width: 40px; /* Adjust the width as needed */
-  height: 40px; /* Adjust the height as needed */
-  border-radius: 50%; /* Make them circular if desired */
+/* slider.css */
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #90d3a6; /* Change to desired color */
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  margin-top: -70px !important;
+  
 }
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white; /* Arrow color */
+  font-size: 20px !important; /* Adjust the size if necessary */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Adjust the position if necessary */
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
 
