@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchBar from './SearchBar'
+import { Link } from 'react-router-dom'
 
 const NavHero = () => {
    
@@ -9,32 +10,30 @@ const NavHero = () => {
       {/* Navbar */}
       <nav className="bg-white shadow-md mt-3 w-full absolute">
         <div className="container mx-auto px-4">
-          <div className='flex justify-between items-center'>
-            <div className='flex items-center'>
-              <img src='/images/logo.png' alt='Logo' className='w-20 h-20' />
-              <div className='ml-5'>
-                <SearchBar />
-                </div>
-            </div>
-            <div>
-              <ul className='flex space-x-3'>
-                <li><a href="#">FR</a></li>
-                <li><a href="#">Register Or Sign in</a></li>
-                <li><a href="#">Post ad</a></li>
-              </ul>
-            </div>
-          </div>
+        <div className="flex flex-col md:flex-row justify-between items-center w-full">
+  <div className="flex items-center w-full md:w-auto">
+    <img src="/images/logo.png" alt="Logo" className="w-20 h-20" />
+    <ul className="flex space-x-3 ml-auto md:ml-5">
+      <li><Link to="">FR</Link></li>
+      <li><Link to="">Register Or Sign in</Link></li>
+      <li><Link to="">Post ad</Link></li>
+    </ul>
+  </div>
+  <div className="mt-5 md:mt-0 w-full md:w-auto md:ml-auto md:flex md:justify-center">
+    <SearchBar />
+  </div>
+</div>
         </div>
         <div className='container mx-auto mb-2 px-4'>
-          <ul className='flex flex-wrap justify-between w-full md:w-[70%] font-larsseit font-semibold text-[15px] text-[#373373]'>
-            <li className='ms-3'><a href="#">Buy & Sell</a></li>
-            <li><a href="#">Cars & Vehicles</a></li>
-            <li><a href="#">Real Estate</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Pets</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Vacation Rentals</a></li>
+          <ul className='flex flex-wrap justify-between w-full md:w-[70%] font-larsseit font-semibold text-[10px] md:text-[15px] text-[#373373]'>
+            <li className='ms-3'><Link to="">Buy & Sell</Link></li>
+            <li><Link to="">Cars & Vehicles</Link></li>
+            <li><Link to="">Real Estate</Link></li>
+            <li><Link to="">Jobs</Link></li>
+            <li><Link to="">Services</Link></li>
+            <li><Link to="">Pets</Link></li>
+            <li><Link to="">Community</Link></li>
+            <li><Link to="">Vacation Rentals</Link></li>
           </ul>
         </div>
       </nav>

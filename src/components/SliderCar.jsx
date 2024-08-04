@@ -72,12 +72,12 @@ const SliderCar = () => {
               <div
                 className={
                   item?.description !== ""
-                    ? "bg-white shadow-md h-full rounded"
+                    ? "bg-white shadow-md h-full rounded  "
                     : "h-full"
                 }
               >
                 <div
-                  className={item?.description === "" ? "w-full h-[263px] rounded" : "w-full h-[200px] bg-cover bg-center rounded "}
+                  className={item?.description === "" ? "w-full  h-[263px] rounded bg-no-repeat" : "w-full  h-[200px] bg-cover bg-center bg-no-repeat rounded "}
                   style={{ backgroundImage: `url(${item.src})` }}
                 />
                 <div className="mt-4 p-3">

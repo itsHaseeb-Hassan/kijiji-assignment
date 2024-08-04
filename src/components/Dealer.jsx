@@ -5,7 +5,7 @@ const Dealer = () => {
     <div>
       <div className="container w-full mx-auto   mb-16 ">
         <h1 className="font-larsseit mb-2   text-[18px]">Kijiji Central</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-5 items-center h-full">
+        <div className="grid grid-cols-1 mx-5 md:grid-cols-3 md:mx-auto gap-5 items-center h-full">
           {data.data.map((item, index) => (
             <div key={index} className="relative flex flex-col">
               <div className="md:relative w-[100%] h-[266px] bg-no-repeat bg-cover bg-center ">
