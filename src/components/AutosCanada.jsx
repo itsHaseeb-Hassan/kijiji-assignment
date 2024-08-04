@@ -31,7 +31,7 @@ const AutosCanada = () => {
         </div>
       </div>
     </div>
-    <div className=' w-[50%] md:w-[20%] h-[200px] rounded-md shadow-xl bg-white ms-4 p-4'>
+    <div className=' w-[90%] md:w-[20%] h-[200px] rounded-md shadow-xl bg-white ms-4 p-4'>
       {/* White box content here */}
       <h2 className='text-[18px] text-[#3e4153] font-larsseit font-normal'>Popular on Kijiji</h2>
       <div className='border-b border-[#ECECEE] flex justify-between py-2'>
