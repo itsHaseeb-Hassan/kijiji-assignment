@@ -1,7 +1,12 @@
 import React, { useState } from "react";
-import Button from "./Button";
 
 const Form = () => {
+  const [activeButton, setActiveButton] = useState(null);
+
+  const handleClick = (e, buttonName) => {
+    e.preventDefault();
+    setActiveButton(buttonName);
+  };
   return (
     <div className="container  mx-auto">
       <div className="header  my-4">
@@ -15,15 +20,26 @@ const Form = () => {
                 <label className="block text-formtext text-[16px] font-normal mb-2">
                   Condition:
                 </label>
-                <div className="flex w-[100%]  border border-borderColor rounded">
-                  <button className="w-[33%] py-2 border-r border-borderColor">
-                    Tout
-                  </button>
-                  <button className="w-[33%] py-2  border-r border-borderColor">
-                    Neuf
-                  </button>
-                  <button className="w-[33%] py-2 border-0">D'occasion</button>
-                </div>
+                <div className="flex w-[100%] border border-borderColor rounded">
+      <button
+        className={`w-[33%] py-2 border-r border-borderColor ${activeButton === 'Tout' ? 'bg-secondary text-white' : ''}`}
+        onClick={(e) => handleClick(e, 'Tout')}
+      >
+        Tout
+      </button>
+      <button
+        className={`w-[34%] py-2 border-r border-borderColor ${activeButton === 'Neuf' ? 'bg-secondary text-white' : ''}`}
+        onClick={(e) => handleClick(e, 'Neuf')}
+      >
+        Neuf
+      </button>
+      <button
+        className={`w-[33%] py-2 border-0 ${activeButton === "D'occasion" ? 'bg-secondary text-white' : ''}`}
+        onClick={(e) => handleClick(e, "D'occasion")}
+      >
+        D'occasion
+      </button>
+    </div>
               </div>
               <div className="mb-4 flex">
                 <div>
