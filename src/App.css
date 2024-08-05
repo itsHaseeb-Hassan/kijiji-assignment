@@ -13,14 +13,14 @@ body{
   border-radius: 50%;
   width: 40px !important;
   height: 40px !important;
-  margin-top: -70px !important;
+  margin-top: -50px !important;
   
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
   color: white; /* Arrow color */
-  font-size: 20px !important; /* Adjust the size if necessary */
+  font-size: 18px !important; /* Adjust the size if necessary */
   display: flex;
   justify-content: center;
   align-items: center;
